@@ -18,4 +18,4 @@ ArchLinuxをベースにしたlualatexのビルド環境です。KMCの新勧冊
 . `docker run -v {ここにソースのディレクトリが入る}:/opt/src --rm -it {ここに docker build . で得られたイメージIDが入る}` を実行する
 
 == Contributing
-polarisが部員の間はPull Requestを送ってもらえるとよしなにします。いなかったら雑にいじってください。（というのは嘘で、いつでもだれでも雑に変更して良い。）
+Pull Requestを送ってもらえるとよしなにします。多分。
