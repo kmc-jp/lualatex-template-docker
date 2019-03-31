@@ -1,0 +1,21 @@
+= lualatex-template-docker
+
+== これは何か？
+ArchLinuxをベースにしたlualatexのビルド環境です。KMCの新勧冊子のビルドに最適です。
+
+== 機能
+* pandocおよびlualatexのビルド環境
+
+== 必要なソフト
+* docker.io
+
+== 注意
+ビルドしたいソースのディレクトリにpandocやlualatexを呼び出すような `Makefile` が存在しなければなりません。
+
+== 使い方
+. このリポジトリをクローンする
+. リポジトリのディレクトリに入って `docker build .`
+. ``docker run -v {ここにソースのディレクトリが入る}:/opt/src --rm -it {ここに `docker build .` で得られたイメージIDが入る}` を実行する
+
+== Contributing
+polarisが部員の間はPull Requestを送ってもらえるとよしなにします。いなかったら雑にいじってください。（というのは嘘で、いつでもだれでも雑に変更して良い。）
