@@ -19,3 +19,6 @@ ArchLinuxをベースにしたlualatexのビルド環境です。KMCの新勧冊
 
 == Contributing
 Pull Requestを送ってもらえるとよしなにします。多分。
+
+== ライセンス
+The MIT Licenseのもとで提供されます。
